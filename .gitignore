@@ -1,0 +1,25 @@
+# Dataset images (~350 MB) - download separately, see README
+train/
+valid/
+test/
+
+# Model checkpoints / large artifacts
+outputs/*.pt
+outputs/*.pth
+*.ckpt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
